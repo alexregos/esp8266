@@ -1,0 +1,31 @@
+/////////////////////////////////
+// Generated with a lot of love//
+// with TUNIOT FOR ESP8266     //
+// Website: Easycoding.tn      //
+/////////////////////////////////
+
+
+void setup()
+{
+  pinMode(12, OUTPUT);
+pinMode(2, OUTPUT);
+pinMode(14, OUTPUT);
+
+}
+
+
+void loop()
+{
+
+    digitalWrite(12,HIGH);
+    delay(1000);
+    digitalWrite(2,HIGH);
+    delay(1000);
+    digitalWrite(14,HIGH);
+    delay(1000);
+    digitalWrite(12,LOW);
+    digitalWrite(2,LOW);
+    digitalWrite(14,LOW);
+    delay(1000);
+
+}
