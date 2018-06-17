@@ -23,11 +23,11 @@ void initDisplay()  {
   display.fillRect(0, 0, 128, 64, BLACK);
   display.display();
   delay(1000);
-  display.setTextSize(1);
-  display.print("Copyright by");
+
+
   display.setCursor(10, 25);
   display.setTextSize(2);
-  display.print("alexregos");
+  display.print("TIVEDA");
   display.setTextSize(1);
   display.display();
   delay(2000);
